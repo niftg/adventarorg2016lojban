@@ -55,7 +55,7 @@
 - za'e xisyjbenunslakezde'a gi'o ta'u ca'e denpa lo xisyjbenunsla
 - za'e xisyjbedetyde'a gi'o ta'u ca'e denpa tu'a lo xisyjbedetri
   - こちらを採用して、「xisyjbedetyde'a: `denpa1` awaits for Christmas Day `detri1`(=?`denpa2`) at state `denpa3` before starting the Christmas Day event (=?`denpa4`=`detri2`)...」といつた形でPSを決めていくと、xisyjbenunslaのsalci要素を`denpa4`=`detri2`のあたりで統合的に取り込む余地が生まれるかもしれない
-    - nunslaのsalciのx3と`denpa3`とを一つのterbriにまとめられないだらうか…と一瞬思つたが、降誕祭待ちに行ふ祭と降誕祭真最中の祭とを共存させるのが何か面倒さうなので、そのへんも考慮しながらPSを完全に決める作業に突入するのは止めて、今回はdenpaしておく
+    - nunslaのsalciのx3と`denpa3`とを一つのterbriにまとめられないだらうか…と一瞬思つたが、降誕祭待ちに行ふ祭と降誕祭真最中の祭のterbriを共存させるのが何か面倒さうなので、そのへんも考慮しながらPSを完全に決める作業に突入するのは止めて、今回はdenpaしておく
 
 ---
 mu'o ro lu'a lo se cuntu be lo lojbo me la za'e xisyjbedetyde'a detcartu 2016moi
