@@ -28,6 +28,7 @@
   - [xisyjbenunsla][zoxisyjbenunsla]: n1 is the Christmas celebrated by s1 with activities s3.
   - [xisyjbedetri][zoxisyjbedetri]: d1 is Christmas Day at location d3 in calendar d4.
 - detriだけよりは[detke'u][zodetkehu]のが良いかなあ、とか、その他色々もやもやするところはあるが、さしあたりこの二つの孰れかを基にしよう
+
 ---
 - 「(xisyjbenunsla|xisyjbedetri)的待つ的期間」
   - 「準備」よりは「待つ」を今回はさしあたり選好
@@ -49,6 +50,7 @@
 - 「(xisyjbenunsla|xisyjbedetri)的denpa的期間」
   - 「カレンダー」に修飾して使用する事を考へると、「期間」は要らないかもしれん
     - 「(xisyjbenunsla|xisyjbedetri)的denpa」（「クリスマス待ち状態にある」？）
+
 ---
 - za'e xisyjbenunslakezde'a gi'o ta'u ca'e denpa lo xisyjbenunsla
 - za'e xisyjbedetyde'a gi'o ta'u ca'e denpa tu'a lo xisyjbedetri
