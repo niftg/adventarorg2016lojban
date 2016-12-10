@@ -16,7 +16,7 @@
 * 百聞は一見に如かず、ゲーム画面を見る方が早い
   * ![オリジナル版Adventureの画面](https://upload.wikimedia.org/wikipedia/commons/3/35/ADVENT_--_Will_Crowther%27s_original_version.png)
   * ![Zorkといふゲームの画面](https://upload.wikimedia.org/wikipedia/en/3/32/Zork_I_screenshot_video_game_Gargoyle_interpreter_on_Ubuntu_Linux.png)
-* 提示されたテキストからプレイヤーの置かれた状況を読み取り、適宜キーワードを拾ひつつコマンドを入力して、また別のテキストが提示させる、この繰り返しでゲームや物語を進めて行く
+* 提示されたテキストからプレイヤーの置かれた状況を読み取り、適宜キーワードを拾ひつつコマンドを入力して、また別のテキストを提示させる、この繰り返しでゲームや物語を進めて行く
 * ta'o jbovlasteには`frafi'a`といふlujvoが登録されてゐる: [`frafi'a`][frafiha]: x1 is interactive fiction about x2
 
 ## プレイに必要なソフトウェア
