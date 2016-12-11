@@ -22,7 +22,7 @@
 ## プレイに必要なソフトウェア
 
 * nuntalyli'uはInformと呼ばれるinteractive fiction用のシステムで作られてをり、Z-machineと呼ばれる仮想機械のインタプリタを必要とする
-  * Z-machineインタプリタでは最初にオススメされるし、[iOS版も提供されてる][frotz_ios]し、[Frotz][frotz]でいいかな
+  * [Z-machineインタプリタ][zmi]では最初にオススメされるし、[iOS版も提供されてる][frotz_ios]し、[Frotz][frotz]でいいかな
 
 ## いざ冒険へ…と、その前に準備運動も
 
@@ -152,4 +152,4 @@ Release 5 / Serial number 961209 / Inform v6.21 Library 6/9 SD
 [frafiha]: http://jbovlaste.lojban.org/dict/frafi'a
 [frotz]: http://frotz.sourceforge.net/
 [frotz_ios]: https://itunes.apple.com/us/app/frotz/id287653015
-
+[zmi]: http://inform-fiction.org/zmachine/interpreters.html
