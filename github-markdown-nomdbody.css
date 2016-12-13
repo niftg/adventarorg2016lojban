@@ -1,10 +1,13 @@
+/*
 // original: https://github.com/sindresorhus/github-markdown-css/blob/gh-pages/github-markdown.css
 // replaced .markdown-body with body
 // added iframe
+*/
 
-iframe {width:640px; height:480px;}
-.iframe_wrapper {position:relative; width:100%; height:auto; padding-top:75%; overflow:auto; -webkit-overflow-scrolling:touch;}
+iframe {width:640px; height:640px;}
+.iframe_wrapper {position:relative; width:640px; height:640px; overflow:auto; -webkit-overflow-scrolling:touch;}
 .iframe_wrapper iframe {position:absolute; top:0; bottom:0; width:100%; height:100%; display:block;}
+@media screen and (max-width:700px) {.iframe_wrapper {width:100%; height:auto;}}
 
 @font-face {
   font-family: octicons-link;
