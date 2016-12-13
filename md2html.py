@@ -13,7 +13,8 @@ def md2html_file(mdfn,stylesheet):
     htmlfrag = markdown.markdown(
         infile.read(),
         output_format="html5",
-        tab_length=2
+        tab_length=2,
+        extensions=[mdext]
         )
     infile.close()
     template ="""<!doctype html>

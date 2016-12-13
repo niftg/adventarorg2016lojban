@@ -17,7 +17,7 @@
 </ul>
 </li>
 <li><a href="https://mw.lojban.org/papri/nuntalyli'u_mini-dictionary">nuntalyli'u mini-dictionary</a><ul>
-<li>[HTML版][https://mw.lojban.org/images/8/8a/59.sip]</li>
+<li>[HTML版][<a href="https://mw.lojban.org/images/8/8a/59.sip">https://mw.lojban.org/images/8/8a/59.sip</a>]</li>
 <li>jbovlasteに未登録のlujvoが出てきた時に役立つ<ul>
 <li>ただ、いづれにせよ大意を示すキーワードのみの列挙でしかない。x1だけなら何となく解るかな。</li>
 </ul>
@@ -33,60 +33,87 @@
 <p>あとはダイアログでセーブファイルを指定してやるだけ。</p>
 <h2>いざ冒険へ（本番）</h2>
 <p><code>refcfa</code>で最初からやり直し。</p>
-<p><code>no'i fi'ido'u do ca kelci la nuntalyli'u</code></p>
+<pre class="highlight"><code>no'i fi'ido'u do ca kelci la nuntalyli'u</code></pre>
+
+
 <h3>アイテムを揃へる</h3>
-<p>```
-.i zvati le fanmo be lo dargu
-.i do ca sanli le fanmo be lo dargu ca'u lo cmalu ke bliku dinju .i lo ricyci'e cu vanbi do .i lo cmalu rirxe cu flecu fi lo ma'arbi'i le dinju</p>
-<p>.i do gasnu le nu _
-<code>前回同様、`nerkla`で小屋に入ります。（今回から、入力した部分には先頭に`&gt;`を挿入して判りやすくする事にします。）</code>
-.i do gasnu le nu &gt;nerkla</p>
-<p>.i nenri lo dinju
-.i do nenri lo dinju noi djacu marbi lo barda jaukra</p>
-<p>.i so'o ckiku vi selstu le dertu</p>
-<p>.i lo kukte cidja cu vi diklo</p>
-<p>.i le minra ke lastu gustci cu jibni</p>
-<p>.i lo botpi noi kunti vi zvati</p>
-<p>.i do gasnu le nu _
-<code>便利さうなアイテムだらけですね。全部頂戴して行きませう。</code>
-.i do gasnu le nu &gt;cpacu lo ckiku
+<pre class="highlight"><code>.i zvati le fanmo be lo dargu
+.i do ca sanli le fanmo be lo dargu ca'u lo cmalu ke bliku dinju .i lo ricyci'e cu vanbi do .i lo cmalu rirxe cu flecu fi lo ma'arbi'i le dinju
+
+.i do gasnu le nu _</code></pre>
+
+
+<p>前回同様、<code>nerkla</code>で小屋に入ります。（今回から、入力した部分には先頭に<code>&gt;</code>を挿入して判りやすくする事にします。）</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;nerkla
+
+.i nenri lo dinju
+.i do nenri lo dinju noi djacu marbi lo barda jaukra
+
+.i so'o ckiku vi selstu le dertu
+
+.i lo kukte cidja cu vi diklo
+
+.i le minra ke lastu gustci cu jibni
+
+.i lo botpi noi kunti vi zvati
+
+.i do gasnu le nu _</code></pre>
+
+
+<p>便利さうなアイテムだらけですね。全部頂戴して行きませう。</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;cpacu lo ckiku
+.i ca'a lebna</code></pre>
+
+
+<p>あ…ほんとはここに居ない誰かの持ち物なのかもしれませんね…まあ気にせず<code>lebna</code>していきませう。</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;lebna lo kukte cidja
 .i ca'a lebna
-<code>あ…ほんとはここに居ない誰かの持ち物なのかもしれませんね…まあ気にせず`lebna`していきませう。</code>
-.i do gasnu le nu &gt;lebna lo kukte cidja
-.i ca'a lebna</p>
-<p>.i do gasnu le nu &gt;lebna lo lastu gustci
-.i ca'a lebna</p>
-<p>.i do gasnu le nu &gt;lebna lo botpi
-.i ca'a lebna</p>
-<p>.i do gasnu le nu &gt;zgana</p>
-<p>.i nenri lo dinju
-.i do nenri lo dinju noi djacu marbi lo barda jaukra</p>
-<p>.i do gasnu le nu _
-<code>``
-全部取れたやうです。（ところで</code>djacu marbi lo barda jaukra`とあるので、この小屋は湧き水か井戸か何かを防護するためのものみたいですね。）</p>
-<p>念のため、<code>selbeiste</code>(<code>beiste</code>/<code>b</code>)で持ち物を確認してみませう。
-```
-.i do gasnu le nu &gt;selbeiste
+
+.i do gasnu le nu &gt;lebna lo lastu gustci
+.i ca'a lebna
+
+.i do gasnu le nu &gt;lebna lo botpi
+.i ca'a lebna
+
+.i do gasnu le nu &gt;zgana
+
+.i nenri lo dinju
+.i do nenri lo dinju noi djacu marbi lo barda jaukra
+
+.i do gasnu le nu _</code></pre>
+
+
+<p>全部取れたやうです。（ところで<code>djacu marbi lo barda jaukra</code>とあるので、この小屋は湧き水か井戸か何かを防護するためのものみたいですね。）</p>
+<p>念のため、<code>selbeiste</code>(<code>beiste</code>/<code>b</code>)で持ち物を確認してみませう。</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;selbeiste
 .i do bevri zo'u
   lo cmalu botpi
   lo lastu gustci
   lo kukte cidja
-  lo girzu be loi ckiku</p>
-<p>.i do gasnu le nu _
-<code>``
-う～～～ん、何か文法的にをかしいリスティングやな…他言語版においては元の英文のメッセージを逐語訳するしかできない仕様だつたとしても、もう少し何とかしたいところです。</code>lo do se bevri zo'u<code>にして次の各アイテムを</code>.i<code>で区切るとか、</code>do bevri la'edi'e .i`みたいにしてしまへばええやんな。</p>
+  lo girzu be loi ckiku
+
+.i do gasnu le nu _</code></pre>
+
+
+<p>う～～～ん、何か文法的にをかしいリスティングやな…他言語版においては元の英文のメッセージを逐語訳するしかできない仕様だつたとしても、もう少し何とかしたいところです。<code>lo do se bevri zo'u</code>にして次の各アイテムを<code>.i</code>で区切るとか、<code>do bevri la'edi'e .i</code>みたいにしてしまへばええやんな。</p>
 <p>まあそれはさておき、鍵の組と美味しい食べ物と真鍮の燈りと小瓶を確かに携へて、この小屋を出ませう。</p>
-<p><code>.i do gasnu le nu &gt;barkla
-.i le bridi po di'u na slabu mi</code>
-おう…<code>nerkla</code>は知つてて<code>barkla</code>は知らんのかい…
-```
-.i do gasnu le nu &gt;bartu</p>
-<p>.i zvati le fanmo be lo dargu</p>
-<p>.i do gasnu le nu &gt;zgana</p>
-<p>.i zvati le fanmo be lo dargu
-.i do ca sanli le fanmo be lo dargu ca'u lo cmalu ke bliku dinju .i lo ricyci'e cu vanbi do .i lo cmalu rirxe cu flecu fi lo ma'arbi'i le dinju</p>
-<p>.i do gasnu le nu _
-```</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;barkla
+.i le bridi po di'u na slabu mi</code></pre>
+
+
+<p>おう…<code>nerkla</code>は知つてて<code>barkla</code>は知らんのかい…</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;bartu
+
+.i zvati le fanmo be lo dargu
+
+.i do gasnu le nu &gt;zgana
+
+.i zvati le fanmo be lo dargu
+.i do ca sanli le fanmo be lo dargu ca'u lo cmalu ke bliku dinju .i lo ricyci'e cu vanbi do .i lo cmalu rirxe cu flecu fi lo ma'arbi'i le dinju
+
+.i do gasnu le nu _</code></pre>
+
+
 <h2>今一度周囲を観察</h2>
 <p>さういや周囲の大自然の情景描写にはノータッチやつたな前回は。行き先も決まらんし、もう一度よう見てみようや。</p>
 <ul>
@@ -105,13 +132,15 @@
 </li>
 </ul>
 <p>となれば、行き先は森か谷か。どうしようかな。</p>
-<p>```
-.i do gasnu le nu &gt;zgana lo ricyci'e
-.i lei vi tricu cu barda jdari bo mudri ke cindu ke'e je tricrxakerake'a to zoi gy. maple gy. toi .i sosmei lei cmalu ricyci'e befi lo tricrpino to zoi gy. pine gy toi .a lo tricrpike'a to zoi gy. spruce gy. toi .i so'imei loi nitspa noi so'eke'a cu ctino ke tricrbetulake'a to zoi gy. birch gy. toi fa'u tricrfraksino. to zoi gy. ash gy. toi pa'a loi na'e pikyva'i ke mitfrica demspa .i ca leca citsi leka ka'e viska cu se jimte ki'u tu'a lei pezli .i ku'i lenu litru cu frili ni'i lenu do rivbi le tricrpike'a .e le se jbari</p>
-<p>.i do gasnu le nu &gt;zgana lo ma'arbi'i
-.i do na viska ri</p>
-<p>.i do gasnu le nu _
-```</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;zgana lo ricyci'e
+.i lei vi tricu cu barda jdari bo mudri ke cindu ke'e je tricrxakerake'a to zoi gy. maple gy. toi .i sosmei lei cmalu ricyci'e befi lo tricrpino to zoi gy. pine gy toi .a lo tricrpike'a to zoi gy. spruce gy. toi .i so'imei loi nitspa noi so'eke'a cu ctino ke tricrbetulake'a to zoi gy. birch gy. toi fa'u tricrfraksino. to zoi gy. ash gy. toi pa'a loi na'e pikyva'i ke mitfrica demspa .i ca leca citsi leka ka'e viska cu se jimte ki'u tu'a lei pezli .i ku'i lenu litru cu frili ni'i lenu do rivbi le tricrpike'a .e le se jbari
+
+.i do gasnu le nu &gt;zgana lo ma'arbi'i
+.i do na viska ri
+
+.i do gasnu le nu _</code></pre>
+
+
 <p>…うん、谷間は遠くて見えない。さういふことにしときませう。</p>
 <p>森に入る前に、大自然の情景描写を一文づつ確認しとこか。</p>
 <ul>
@@ -147,68 +176,99 @@
 </ul>
 <p>う～ん、最後の二文だけ読めば十分やつたな。とつとと森へ行きませう。</p>
 <h2>しかしまたしても入場拒否</h2>
-<p>```
-.i do gasnu le nu &gt;nerkla lo ricyci'e
-.i ri na se nerkla</p>
-<p>.i do gasnu le nu &gt;klama lo ricyci'e
-.i ri na se nerkla</p>
-<p>.i do gasnu le nu &gt;nenri lo ricyci'e
-.i ri na se nerkla`
-```</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;nerkla lo ricyci'e
+.i ri na se nerkla
+
+.i do gasnu le nu &gt;klama lo ricyci'e
+.i ri na se nerkla
+
+.i do gasnu le nu &gt;nenri lo ricyci'e
+.i ri na se nerkla`</code></pre>
+
+
 <p><code>zgana lo ricyci'e</code>が通る以上、<code>riryci'e</code>に問題があるとは思へないんだよなあ。</p>
-<p>谷になら行けるんやろか。
-```
-.i do gasnu le nu &gt;klama lo ma'arbi'i
-.i do na viska ri</p>
-<p>.i do gasnu le nu &gt;nerkla lo ma'arbi'i
-.i do na viska ri</p>
-<p>.i do gasnu le nu &gt;nenri lo ma'arbi'i
+<p>谷になら行けるんやろか。</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;klama lo ma'arbi'i
 .i do na viska ri
-```
-見えないなら川を辿つてでも行つてほしいんだけどな～～～</p>
+
+.i do gasnu le nu &gt;nerkla lo ma'arbi'i
+.i do na viska ri
+
+.i do gasnu le nu &gt;nenri lo ma'arbi'i
+.i do na viska ri</code></pre>
+
+
+<p>見えないなら川を辿つてでも行つてほしいんだけどな～～～</p>
 <p>ロジバン実装の拙さのせゐで早々に手詰まりか…？いや、あれを試したろ。</p>
 <h2>方角移動</h2>
-<p>```
-.i do gasnu le nu &gt;berti</p>
-<p>.i zvati le ricfoi
-<code>北方向でいきなり入れたやん。</code>
-.i do gasnu le nu &gt;snanu</p>
-<p>.i zvati le ricfoi</p>
-<p>.i do gasnu le nu &gt;snanu</p>
-<p>.i zvati le ricfoi</p>
-<p>.i do gasnu le nu &gt;snanu</p>
-<p>.i zvati le ricfoi</p>
-<p>.i do gasnu le nu _
-```
-そしていきなり出れへん…。ツクール製RPGの見知らぬマップに足を踏み入れた途端に閉ぢ籠められた気分や。</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;berti
+
+.i zvati le ricfoi</code></pre>
+
+
+<p>北方向でいきなり入れたやん。</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;snanu
+
+.i zvati le ricfoi
+
+.i do gasnu le nu &gt;snanu
+
+.i zvati le ricfoi
+
+.i do gasnu le nu &gt;snanu
+
+.i zvati le ricfoi
+
+.i do gasnu le nu _</code></pre>
+
+
+<p>そしていきなり出れへん…。ツクール製RPGの見知らぬマップに足を踏み入れた途端に閉ぢ籠められた気分や。</p>
 <p>方角を指定して移動するのはインタラクティブフィクションの基本操作の内らしいけど、これだとマップチップで構成された世界を十字キーで歩かせるのと大差無くて、テキスト主体である事の強みが活かされないんだよなあpe'i。なので行き先が分かるのであればなるべく使用したくなかつたが、まあ仕方が無い。</p>
-<p>```
-.i do gasnu le nu &gt;stici</p>
-<p>.i zvati le ricfoi</p>
-<p>.i do gasnu le nu &gt;stuna</p>
-<p>.i zvati le ma'arbi'i
-.i do zvati lo ma'arbi'i vaze'a le ricyci'e ne'a lo cmari'e noi kasfle re'o loi rokci
-<code>あれ、谷に出てまうた。南に行き過ぎたから、今度は北かな。</code>
-.i do gasnu le nu &gt;berti</p>
-<p>.i zvati le fanmo be lo dargu
-<code>戻れたやん。折角やから西と東も確認しとくか。</code>
-.i do gasnu le nu &gt;stici</p>
-<p>.i zvati le cmama'a poi nenri le dargu
-.i do ba'o mo'iga'u cadzu lo cmama'a gi'e pujeca nenri le ricyci'e .i le dargu cu mo'ini'a salpo va le na'evi cmama'a mlana .i lo dinju cu darno se zgana</p>
-<p>.i do gasnu le nu &gt;stuna</p>
-<p>.i zvati le fanmo be lo dargu</p>
-<p>.i do gasnu le nu &gt;stuna</p>
-<p>.i nenri lo dinju</p>
-<p>.i do gasnu le nu &gt;stici</p>
-<p>.i zvati le fanmo be lo dargu</p>
-<p>.i do gasnu le nu _
-```</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;stici
+
+.i zvati le ricfoi
+
+.i do gasnu le nu &gt;stuna
+
+.i zvati le ma'arbi'i
+.i do zvati lo ma'arbi'i vaze'a le ricyci'e ne'a lo cmari'e noi kasfle re'o loi rokci</code></pre>
+
+
+<p>あれ、谷に出てまうた。南に行き過ぎたから、今度は北かな。</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;berti
+
+.i zvati le fanmo be lo dargu</code></pre>
+
+
+<p>戻れたやん。折角やから西と東も確認しとくか。</p>
+<pre class="highlight"><code>.i do gasnu le nu &gt;stici
+
+.i zvati le cmama'a poi nenri le dargu
+.i do ba'o mo'iga'u cadzu lo cmama'a gi'e pujeca nenri le ricyci'e .i le dargu cu mo'ini'a salpo va le na'evi cmama'a mlana .i lo dinju cu darno se zgana
+
+.i do gasnu le nu &gt;stuna
+
+.i zvati le fanmo be lo dargu
+
+.i do gasnu le nu &gt;stuna
+
+.i nenri lo dinju
+
+.i do gasnu le nu &gt;stici
+
+.i zvati le fanmo be lo dargu
+
+.i do gasnu le nu _</code></pre>
+
+
 <p>ふむ。位置関係はこんな感じか。</p>
-<p><code>(行きは良い良い帰りは怖い)lo ricfoi
+<pre class="highlight"><code>(行きは良い良い帰りは怖い)lo ricfoi
                                |
 lo cmama'a --(lo-dargu)-- lo fanmo --- lo dinju
 (ne'i lo dargu)                |             ~
                                |             ~
-                        lo ma'arbi'i~~lo~rirxe</code></p>
+                        lo ma'arbi'i~~lo~rirxe</code></pre>
+
+
 <p>森は怖い。西に新しく出よつたcmama'a（丘）とか南の谷とかを先に探検しようか。</p>
 <p>ジボ語版の実装の不完全さに不安を覚えつつも、今日はここまで。中々冒険が始まらんな…もう少しザックリ進めよか。むほ。</p>
