@@ -3,7 +3,7 @@
 // added iframe
 
 iframe {width:640px; height:480px;}
-.iframe_wrapper {position:relative; width:100%; height:auto; padding-top:75%; overflow:auto;}
+.iframe_wrapper {position:relative; width:100%; height:auto; padding-top:75%; overflow:auto; -webkit-overflow-scrolling:touch;}
 .iframe_wrapper iframe {position:absolute; top:0; bottom:0; width:100%; height:100%; display:block;}
 
 @font-face {
