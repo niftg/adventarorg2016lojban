@@ -6,6 +6,8 @@ import markdown
 import mdx_gfm
 mdext = mdx_gfm.GithubFlavoredMarkdownExtension()
 
+test = ""
+
 import codecs
 import re
 def md2html_file(mdfn,stylesheet):
@@ -17,6 +19,13 @@ def md2html_file(mdfn,stylesheet):
         extensions=[mdext]
         )
     infile.close()
+    # href="*.md" -> href="*.html"
+    htmlfrag = re.sub(r"(?<=href\=\")https://github\.com/(?P<usr>.+)/(?P<repo>.+)/blob/master/(?P<mdn>.+)\.md(?=\")",
+                      r"https://\g<usr>.github.io/\g<repo>/\g<mdn>.html",
+                      htmlfrag)
+    htmlfrag = re.sub(r"(?<=href\=\")(?P<mdn>[^:]*)\.md(?=\")",
+                      r"\g<mdn>.html",
+                      htmlfrag)
     template ="""<!doctype html>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>

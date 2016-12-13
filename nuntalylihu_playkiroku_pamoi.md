@@ -1,6 +1,6 @@
 # nuntalyli'u プレイ記録 その一
 
-* 前回: [nuntalyli'u プレイ記録 準備篇](https://github.com/niftg/adventarorg2016lojban/blob/master/nuntalylihu_playkiroku_junbihen.md)
+* 前回: [nuntalyli'u プレイ記録 準備篇](nuntalylihu_playkiroku_junbihen.md)
 
 ## 辞書を携へて
 
