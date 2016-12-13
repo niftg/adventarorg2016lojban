@@ -10,7 +10,7 @@
   * 特に General Notes 以降の Pronouns, Articles, Compass Directions, Meta Verbs, Ordinary Verbs の節
   * コマンド入力の際に役立つ
 * [nuntalyli'u mini-dictionary][vlaste]
-  * [HTML版][https://mw.lojban.org/images/8/8a/59.sip]
+  * [HTML版][vlaste_html]
   * jbovlasteに未登録のlujvoが出てきた時に役立つ
     * ただ、いづれにせよ大意を示すキーワードのみの列挙でしかない。x1だけなら何となく解るかな。
 
