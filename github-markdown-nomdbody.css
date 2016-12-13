@@ -1,5 +1,8 @@
 // original: https://github.com/sindresorhus/github-markdown-css/blob/gh-pages/github-markdown.css
 // replaced .markdown-body with body
+// added iframe
+
+iframe {width: 100%; height:auto;}
 
 @font-face {
   font-family: octicons-link;
