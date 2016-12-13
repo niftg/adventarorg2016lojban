@@ -37,14 +37,16 @@ def md2html_file(mdfn,stylesheet):
     outfile.close()
 
 import sys
+import glob
 if __name__ == "__main__":
     if (len(sys.argv)>1):
         if (len(sys.argv)>2):
             css = sys.argv[2]
         else:
             css = None
-        md2html_file(sys.argv[1], css)
-        
-
-#import glob
-#mdlist = glob.glob("*.md")
+        if (sys.argv[1].find("*")>-1):
+            mdlist = glob.glob("*.md")
+        else:
+            mdlist = [sys.argv[1]]
+        for i in mdlist:
+            md2html_file(i, css)
