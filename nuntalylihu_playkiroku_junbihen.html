@@ -1,0 +1,127 @@
+<!doctype html>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>nuntalyli'u プレイ記録 準備篇</title>
+<link href="github-markdown-nomdbody.css" rel="stylesheet" type="text/css"/>
+
+<h1>nuntalyli'u プレイ記録 準備篇</h1>
+<h2>la nuntalyli'u とは</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Interactive_fiction">interactive fiction</a> と呼ばれる類ひのゲームの古典的な（といふか創始的な）作品であるところの「<a href="https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%AD%E3%83%83%E3%82%B5%E3%83%AB%E3%83%BB%E3%82%B1%E3%83%BC%E3%83%96%E3%83%BB%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC">Colossal Cave Adventure</a>」（単に ADVENT とか Colossal Cave とか Adventure とか呼ばれる事が多い模様）をロジバンに訳したもの<ul>
+<li><a href="https://mw.lojban.org/papri/Colossal_Cave">ロジバン公式ウィキのページ</a>からゲームデータを落とせる<ul>
+<li><a href="http://tiki.lojban.org/tiki/Colossal+Cave">tiki時代のページ</a>の方が情報量多いのは何なんですかね…ta'osai</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>nuntalyli'u</code> ← <code>nu zei talsa zei litru</code> （[～の事象]-[挑む]-[旅]）<ul>
+<li>「Colossal Cave」ではなく「Adventure」の方をタイトルに採用したんやね</li>
+<li>ta'o ba'anai ロジバン始めて間もない頃は、このlujvoの字面の、エキゾチックさを通り越しての得体の知れなさや気味悪さに大興奮したものだけど、今となつては何てことない構造の普通のlujvoなので、その頃の感覚が懐かしい</li>
+</ul>
+</li>
+</ul>
+<h2>interactive fiction とは</h2>
+<ul>
+<li>テキスト主体のアドベンチャーゲームの一形態…といふか始祖的な形態のもの<ul>
+<li>提示された選択肢やコマンドを選ぶのではなく、提示された状況描写を基に自分でCLI風のコマンドを入力する</li>
+</ul>
+</li>
+<li>百聞は一見に如かず、ゲーム画面を見る方が早い<ul>
+<li><img alt="オリジナル版Adventureの画面" src="https://upload.wikimedia.org/wikipedia/commons/3/35/ADVENT_--_Will_Crowther%27s_original_version.png"></li>
+<li><img alt="Zorkといふゲームの画面" src="https://upload.wikimedia.org/wikipedia/en/3/32/Zork_I_screenshot_video_game_Gargoyle_interpreter_on_Ubuntu_Linux.png"></li>
+</ul>
+</li>
+<li>提示されたテキストからプレイヤーの置かれた状況を読み取り、適宜キーワードを拾ひつつコマンドを入力して、また別のテキストを提示させる、この繰り返しでゲームや物語を進めて行く</li>
+<li>ta'o jbovlasteには<code>frafi'a</code>といふlujvoが登録されてゐる: <a href="http://jbovlaste.lojban.org/dict/frafi'a"><code>frafi'a</code></a>: x1 is interactive fiction about x2</li>
+</ul>
+<h2>プレイに必要なソフトウェア</h2>
+<ul>
+<li>nuntalyli'uはInformと呼ばれるinteractive fiction用のシステムで作られてをり、Z-machineと呼ばれる仮想機械のインタプリタを必要とする<ul>
+<li><a href="http://inform-fiction.org/zmachine/interpreters.html">Z-machineインタプリタ</a>では最初にオススメされるし、<a href="https://itunes.apple.com/us/app/frotz/id287653015">iOS版も提供されてる</a>し、<a href="http://frotz.sourceforge.net/">Frotz</a>でいいかな</li>
+</ul>
+</li>
+</ul>
+<h2>いざ冒険へ…と、その前に準備運動も</h2>
+<p>Frotzで<code>nuntalylihu.z5</code>を読み込む。</p>
+<p>```
+no'i fi'ido'u do ca kelci la nuntalyli'u</p>
+<p>la nuntalyli'u
+The Interactive Original
+By Will Crowther (1973) and Don Woods (1977)
+Reconstructed in three steps by:
+Donald Ekman, David M. Baggett (1993) and Graham Nelson (1994)
+[In memoriam Stephen Bishop (1820?-1857): GN]
+See source for translation credits.
+Release 5 / Serial number 961209 / Inform v6.21 Library 6/9 SD</p>
+<p>.i zvati le fanmo be lo dargu
+.i do ca sanli le fanmo be lo dargu ca'u lo cmalu ke bliku dinju .i lo ricyci'e cu vanbi do .i lo cmalu rirxe cu flecu fi lo ma'arbi'i le dinju</p>
+<p>.i do gasnu le nu _
+```</p>
+<p>やつたぜ。</p>
+<p>（カーソル位置の表示は<code>_</code>で代用）</p>
+<ul>
+<li><code>.i zvati le fanmo be lo dargu</code> <code>.i do ca sanli le fanmo be lo dargu</code><ul>
+<li>ワイは今、道路の末端に立つてをるんやな…で</li>
+</ul>
+</li>
+<li><code>ca'u lo cmalu ke bliku dinju</code><ul>
+<li>道路の末端（に立つワイ）の前には、小さなブロック的建屋があるんやな</li>
+</ul>
+</li>
+<li><code>.i lo ricyci'e cu vanbi do .i lo cmalu rirxe cu flecu fi lo ma'arbi'i le dinju</code><ul>
+<li>あと何か大自然の情景がワチャワチャとあるけど、これはまた後回しや</li>
+</ul>
+</li>
+</ul>
+<p>ぢやあ早速dinjuの中に入つてみよか。</p>
+<p><code>.i do gasnu le nu nerkla lo dinju</code></p>
+<p>```
+.i ri na se nerkla</p>
+<p>.i do gasnu le nu _
+```</p>
+<p>へ…？</p>
+<p>「そこは入るとこと違ふで」て…dinjuは入るためのものやんか…</p>
+<p>言葉が悪かつたんやろか…？</p>
+<p>```
+.i do gasnu le nu klama lo dinju
+.i ri na se nerkla</p>
+<p>.i do gasnu le nu nenri lo dinju
+.i ri na se nerkla
+```</p>
+<p>何で？？？何で入れないん？？？</p>
+<p>ちふか<code>nerkla</code>知つとるのに入れてくれないの何でなん？？？</p>
+<p>```
+.i do gasnu le nu tikpa lo dinju
+.i le nu vlile cu te snada noda</p>
+<p>.i do gasnu le nu darxi lo dinju
+.i le nu vlile cu te snada noda</p>
+<p>.i do gasnu le nu daspo lo dinju
+.i le nu vlile cu te snada noda
+```</p>
+<p>思ひ通りに行かんからとて乱暴したワイが悪かつた…すまん。</p>
+<p>（しかしこの<code>snada</code>のx3の使ひ方、ええな…ワイも今度<code>troci</code>の代りに使うたろ。）</p>
+<p><code>lo dinju</code>があかんのかな…これで十分特定できてるはずやけどな…</p>
+<p>```
+.i do gasnu le nu nerkla lo cmalu ke bliku dinju
+.i do na viska ri</p>
+<p>.i do gasnu le nu le dinju
+.i le bridi po di'u na slabu mi</p>
+<p>.i do gasnu le nu nerkla le dinju
+.i ri na se nerkla</p>
+<p>.i do gasnu le nu nerkla lo bliku dinju
+.i do na viska ri
+```</p>
+<p>入れへんどころか見えへん…やて…？うそやん…</p>
+<p>う～ん、<code>lo dinju</code>以外に適当なキーワードとか思ひ付かんで…どないしよ</p>
+<p><code>.i do gasnu le nu nerkla</code></p>
+<p>```
+.i nenri lo dinju
+.i do nenri lo dinju noi djacu marbi lo barda jaukra</p>
+<p>.i so'o ckiku vi selstu le dertu</p>
+<p>.i lo kukte cidja cu vi diklo</p>
+<p>.i le minra ke lastu gustci cu jibni</p>
+<p>.i lo botpi noi kunti vi zvati</p>
+<p>.i do gasnu le nu _
+```</p>
+<p>何でこれで入れるんや？！</p>
+<p>のつけから何だか幸先の思ひやられる仕様やけど、続きはまた今度にしよか。むほ。</p>
