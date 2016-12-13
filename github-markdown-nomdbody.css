@@ -2,8 +2,9 @@
 // replaced .markdown-body with body
 // added iframe
 
-iframe_wrapper {position:relative; width:100%; padding-top:75%;}
-iframe_wrapper iframe {position:absolute; top:0; bottom:0; width:100%; height:100%;}
+iframe {width:640px; height:480px;}
+.iframe_wrapper {position:relative; width:100%; height:auto; padding-top:75%;}
+.iframe_wrapper iframe {position:absolute; top:0; bottom:0; width:100%; height:100%}
 
 @font-face {
   font-family: octicons-link;
