@@ -8,7 +8,7 @@ iframe {width:640px; height:640px;}
 .iframe_wrapper {position:relative; width:640px; height:640px; overflow:auto;}
 .iframe_wrapper iframe {position:absolute; top:0; bottom:0; width:100%; height:100%; display:block;}
 @media screen and (max-width: 800px) {
-  .iframe_wrapper {position:relative; width:100%; height:auto; overflow:auto; padding-bottom:100%;}
+  .iframe_wrapper {position:relative; width:100%; height:auto; overflow:auto; padding-bottom:100%; -webkit-overflow-scrolling: touch;}
 }
 
 @font-face {
