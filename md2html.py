@@ -17,7 +17,8 @@ def md2html_file(mdfn,stylesheet):
         )
     infile.close()
     template ="""<!doctype html>
-<meta charset="utf-8">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <!--title-->
 <!--css-->\n
 """

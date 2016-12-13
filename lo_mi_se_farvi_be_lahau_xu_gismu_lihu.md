@@ -7,7 +7,7 @@
 
 [専用のリポジトリ][myrepo]を新たに立てつつ[GitHubページで公開した][mypage]ので、先づはプレイしてみてください。（[オリジナルのリポジトリ][originalrepo]からのフォークの[派生ブランチの内容][losefarvi]を切り出したもの。）lalxuさんの[オリジナル版][original]を未プレイの方はそちらも是非。
 
-<iframe src="https://niftg.github.io/xugismu_to-losefarvi-toi/junla-johu-notci.html" width="640" height="480"></iframe>
+<div class="iframe_wrapper"><iframe src="https://niftg.github.io/xugismu_to-losefarvi-toi/junla-johu-notci.html"></iframe></div>
 
 ## 機能追加の経緯
 
