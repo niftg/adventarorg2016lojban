@@ -16,7 +16,7 @@ def md2html_file(mdfn,stylesheet):
         infile.read(),
         output_format="html5",
         tab_length=2,
-        extensions=[mdext]
+        extensions=[mdext, "markdown.extensions.footnotes"]
         )
     infile.close()
     # href="*.md" -> href="*.html"
