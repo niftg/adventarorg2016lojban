@@ -1,0 +1,591 @@
+<!doctype html>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>nuntalyli'u プレイ記録 その二</title>
+<link href="github-markdown-nomdbody.css" rel="stylesheet" type="text/css"/>
+
+<h1>nuntalyli'u プレイ記録 その二</h1>
+<ul>
+<li><a href="nuntalylihu_playkiroku_junbihen.md">準備篇</a></li>
+<li><a href="nuntalylihu_playkiroku_pamoi.html">その一</a></li>
+</ul>
+<h2>前回までのあらすぢ</h2>
+<ul>
+<li>『nuntalyli'u<a href="#ntl"><sup id="inref_ntl">[1]</sup></a>』をプレイ中<ul>
+<li>『nuntalyli'u』は『Colossal Cave Adventure<a href="#cca"><sup id="inref_cca">[2]</sup></a>』のロジバン訳版<ul>
+<li>『Colossal Cave Adventure』（別名: 『ADVENT』、『Colossal Cave』、『Adventure』）は interactive fiction と呼ばれるゲームジャンルの創始的な作品<ul>
+<li>interactive fiction は、テキスト主体のアドベンチャーゲームで、CLI風のコマンド（<code>go north</code>とか<code>take lantern</code>とか）を入力してプレイヤーキャラを操作して物語を進める</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>前回までの行動履歴<ul>
+<li>（プレイヤーの最初の地点のそばにある）小屋の中にあるアイテムを回収して</li>
+<li>周囲の森を散策したら方向感覚を失つて、漸く脱出したらそこは南の谷で</li>
+<li>北に進んで最初の地点に戻つて、小屋の周りの位置関係を再度確認して一旦終了</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>冒険再開</h2>
+<p><a href="http://jerz.setonhill.edu/if/gallery/adventure/">このページ</a>を見ると、どうも森の散策は然して重要ではない模様。骨折り損か。とつとと谷の先にある洞窟の入り口へ行かう。</p>
+<p>（今回から<code>&gt;</code>ではなく<code>:</code>を挿入して入力開始部分を示してみます。）</p>
+<pre class="highlight"><code>.i do gasnu le nu :snanu
+
+.i zvati le ma'arbi'i
+
+.i do gasnu le nu :snanu
+
+.i zvati lo fenra be le cmari'e sefta
+.i vive'a ledo jamfu piji'iro lei djacu po'e le rirxe cu daxfle fi lo fenra be
+le rokci be'o noi centre li mu leni clani .i pirole ve flecu sefta cu rokci</code></pre>
+
+
+<p>岩の亀裂に向かつて川は流れ落ちてる模様。<code>centre</code>が奇しくも英単語つぽい見た目ですけど、これは「～センチメートル（ある）」といふ意味の述語（<code>centi</code>+<code>mitre</code>）。英語のcentreはただのセンターやな。（英式綴り）</p>
+<p>このまま南下して行きます。</p>
+<pre class="highlight"><code>.i do gasnu le nu :snanu
+
+.i se bartu le ga'avro
+.i do diklo lo rajyke'a noi mitre li ze leni condi zi'enoi se loldi loi dertu .i
+ri te jarpu'i lo tsali ke gasta ga'avro noi se jicmu lo majrtsementa. to zoi gy.
+cement gy. toi .i lo sudga ke flecu sefta cu clani fa'a le rajyke'a</code></pre>
+
+
+<p><code>do diklo lo rajyke'a</code>の部分だけ見て一瞬「落とし穴に嵌つたか？！」と焦つたが、ga'avro（grate（鉄格子））がしつかり設置できる程度の床面積はあるはず。srajiだけどjarkiではなささう。このga'avroが洞窟の入り口か。</p>
+<pre class="highlight"><code>.i do gasnu le nu :snanu
+
+.i zvati le ricfoi</code></pre>
+
+
+<p>あかん。また森に迷ひ込んでしまうた。</p>
+<pre class="highlight"><code>.i do gasnu le nu :berti
+
+.i zvati le fanmo be lo dargu</code></pre>
+
+
+<p>この森、時空が歪んどるな…古いゲームだししやあないか。</p>
+<p>ちなみに小屋に入るコマンドが目的語も何もない<code>nerkla</code>だけなのは、元々がさういふ仕様だつたらしい。訳者と実装者にごめんなさいしなきやね。</p>
+<p>で、また同じく南下してga'avroのある穴に戻つてきました。</p>
+<pre class="highlight"><code>.i se bartu le ga'avro
+
+.i do gasnu le nu :catlu
+to le ga'avro toi
+.i za'a fadni</code></pre>
+
+
+<p><code>catlu</code>は<code>zgana</code>と違うて、物体に視線を集中させるんやな。</p>
+<pre class="highlight"><code>.i do gasnu le nu :zgana
+
+.i se bartu le ga'avro
+.i do diklo lo rajyke'a noi mitre li ze leni condi zi'enoi se loldi loi dertu .i
+ri te jarpu'i lo tsali ke gasta ga'avro noi se jicmu lo majrtsementa. to zoi gy.
+cement gy. toi .i lo sudga ke flecu sefta cu clani fa'a le rajyke'a</code></pre>
+
+
+<p>セメントで基盤に固めてある鉄格子をどうしたものか。</p>
+<pre class="highlight"><code>.i do gasnu le nu :daspo lo ga'avro
+.i le nu vlile cu te snada noda</code></pre>
+
+
+<p>.uenai .uinai .uonai</p>
+<pre class="highlight"><code>.i do gasnu le nu :kargau lo ga'avro
+.i ri cu se kikla'a</code></pre>
+
+
+<p><code>kikla'a</code>されてる…つまりckikuでlasnaされてる…となれば、鍵が必要。アドベンチャーの超定番の関門やね。</p>
+<p>鍵は今のところ小屋で回収したやつしか無いので、それを使用しよう。</p>
+<pre class="highlight"><code>.i do gasnu le nu :kargau lo ga'avro sepi'o lo ckiku
+.i do gasnu le nu le ga'avro cu kikykalri</code></pre>
+
+
+<p>やつたぜ。.uosai .u'a</p>
+<p>ついでに持ち物もう一度確認しとこ。</p>
+<pre class="highlight"><code>.i do gasnu le nu :selbeiste
+.i do bevri zo'u
+  lo cmalu botpi
+  lo lastu gustci
+  lo kukte cidja
+  lo girzu be loi ckiku</code></pre>
+
+
+<p>je'e。<code>zo'u</code>の直前の部分は絶対後でソース弄つて修正したい。</p>
+<pre class="highlight"><code>.i do gasnu le nu :nenri
+.i do na kanke le nu klama fo la'e di'u
+
+.i do gasnu le nu :cnita
+to pamai do kargau le ga'avro toi
+.i cnita le ga'avro
+.i do nenri lo cmalu kumfa peni'a lo gasta ga'avro noi kurtre li pa leni sefta
+zi'enoi vorme fi lo gapru .i lo dizlo ke cidydzu pluta ga'ure'o loi lolro'iboi
+cu ve klama lo nenri je stici
+
+.i le ga'avro cu kalri</code></pre>
+
+
+<p>施錠を解いたのみで鉄格子開けるの忘れてたけど、自動でフォローしてくれるシステムや。.i'e</p>
+<p>膝立ちせんと進めない道が内部且つ西方に続いてる模様。</p>
+<pre class="highlight"><code>.i do gasnu le nu :nenri
+.i do na kanke le nu klama fo la'e di'u
+
+.i do gasnu le nu :stici</code></pre>
+
+
+<p>東西南北移動の方が成功率高いんかな。</p>
+<pre class="highlight"><code>.i nenri la lolro'iboi cidydzu
+.i do cidydzu loi lolro'iboi .oi vi lo dizlo pluta .i ruble gusni fi le stuna be
+le pluta
+
+.i lo cmalu vasru pema'e loi jimca cu se renro ne'aku</code></pre>
+
+
+<p>枝的な物で出来た入れ物が下の方に投げられてる模様。誰が投げたのかは知らんけど、特に変でなければ頂戴しとこか。</p>
+<pre class="highlight"><code>.i do gasnu le nu :catlu lo cmalu vasru
+.i ri cu vasru pema'e loi jimca
+
+.i do gasnu le nu :lebna lo vasru
+.i ca'a lebna
+
+.i do gasnu le nu :stici
+
+.i ka manku
+.i prane le ka manku .iseri'a do na kakne le nu viska</code></pre>
+
+
+<p>完璧な闇やん。ここでgustciの出番やな。漸く冒険らしうなつてきた。</p>
+<pre class="highlight"><code>.i do gasnu le nu :tolcadgau lo gustci
+.i do kragau le lastu gustci
+
+.i nenri lo kumfa pelei fesydai
+.i do nenri lo kumfa pelei fesydai zi'enoi culno loi se jaurbei befo lo gapru .i
+lo dizlo je ganra pluta cu to'e se kliri'a tu'a loi cimdertu kujoi loi fesydai
+.iku'i lo na'e frili se cadzu ma'arfe'a cu ve klama lo gapru joi stici .i lo
+notci re'o le bitmu cu ve cusku lu lu xyzyzy li'u cu makfa valsi li'u 
+
+.i lo xekri grana noi mitre li pa leni clani zi'enoi lo se kijyspo tartai cu
+fanmo cu jibni</code></pre>
+
+
+<p><a href="http://tiki.lojban.org/tiki/Basic+nuntalylihu+Instructions">Basic nuntalyli'u Instraction</a>に孰れも載つてるとはいへ、<code>kragau</code>は何か違ふ気がするから個人的には<code>tolcadgau</code>を選好するところである。</p>
+<p>この小汚い感じの部屋の壁に書かれてゐることによると、<code>xyzyzy</code>は魔法の言葉…あの有名なxyzzyやな。これを唱へれば何か起きるんかな。</p>
+<pre class="highlight"><code>.i do gasnu le nu :cusku lu xyzyzy li'u
+to do toi
+.i na spuda</code></pre>
+
+
+<p>図らず自問自答してしまつた。</p>
+<pre class="highlight"><code>.i do gasnu le nu :bacru lu xyzyzy li'u
+.i le bridi po di'u na slabu mi</code></pre>
+
+
+<p>ん～どうすれば呪文唱へられるんやろ。</p>
+<pre class="highlight"><code>.i do gasnu le nu :xyzyzy
+
+.i nenri lo dinju
+.i do nenri lo dinju noi djacu marbi lo barda jaukra
+
+.i do gasnu le nu :xyzyzy
+
+.i nenri lo kumfa pelei fesydai
+.i do nenri lo kumfa pelei fesydai zi'enoi culno loi se jaurbei befo lo gapru .i
+lo dizlo je ganra pluta cu to'e se kliri'a tu'a loi cimdertu kujoi loi fesydai
+.iku'i lo na'e frili se cadzu ma'arfe'a cu ve klama lo gapru joi stici .i lo
+notci re'o le bitmu cu ve cusku lu lu xyzyzy li'u cu makfa valsi li'u 
+
+.i lo xekri grana noi mitre li pa leni clani zi'enoi lo se kijyspo tartai cu
+fanmo cu jibni</code></pre>
+
+
+<p>ロジバン的には非文法的やけど、ともかく小屋とこのゴミ部屋とを瞬時に行き来できる呪文なんやな。</p>
+<p>先が星形の黒い棒も頂戴しませう。</p>
+<pre class="highlight"><code>.i do gasnu le nu :lebna lo grana
+.i ca'a lebna
+
+.i do gasnu le nu :stici
+
+.i na'e frili zei du'a je vu'a zei salpo ve klama ma'arfe'a
+.i do diklo lo na'e frili ve klama ma'arfe'a noi salpo zi'enoi ve klama lo stici
+.e lo stuna
+
+.i do gasnu le nu :stici
+
+.i narju rirxe kumfa
+.i do nenri lo banli kumfa noi mitre li pano leni galtu .i le bitmu cu dunja
+rirxe flecu lo narju rokci .i lo na'e frili ve klama ma'arfe'a kufa'u lo xamgu
+pluta cu te barli'a vi le stuna fa'u stici mlana be le kumfa
+
+.i lo gleki ke cmalu cipni vi zutse je sanga</code></pre>
+
+
+<p>何やこの鳥。炭鉱のカナリア的な存在か？オレンジ色の岩と相俟つてこの部屋の異様さが際立つてをる。</p>
+<p>ともかく回収…いや捕獲か。</p>
+<pre class="highlight"><code>.i do gasnu le nu :kavbu lo cipni
+.i le cipni na terpa ca lenu do nerkla .i ri ca lenu do jbibi'o ri co'a dunku
+.iseki'ubo do na'eka'e kavbu ri</code></pre>
+
+
+<p>近づいたら何か苦しさうで捕まへられへん。</p>
+<pre class="highlight"><code>.i do gasnu le nu :dunda lo cidja
+to le cmalu cipni toi
+.i ri na'e xagji gi'esu'anai djisanga ra'a loi zbanrfiorde .iji'a do bevri no
+cpidja tsiju</code></pre>
+
+
+<p>餌付けも失敗。鳥用の食べ物ではなかつた。</p>
+<pre class="highlight"><code>.i do gasnu le nu :kargau lo vasru
+.i ri ca ca'a kalri
+
+.i do gasnu le nu :kavbu lo cipni sepi'o lo vasru
+.i le cipni na terpa ca lenu do nerkla .i ri ca lenu do jbibi'o ri co'a dunku
+.iseki'ubo do na'eka'e kavbu ri
+
+.i do gasnu le nu :kavbu lo cipni lo vasru
+.i na'e jimpe lei valsi poi se lidne lo'u kavbu le cmalu cipni le'u
+
+.i do gasnu le nu :kavbu lo cipni fi lo vasru
+.i na'e jimpe lei valsi poi se lidne lo'u kavbu le cmalu cipni le'u</code></pre>
+
+
+<p><code>kavbu</code>のx3はこのシステムだと認識せんのやな…ともかく道具のせゐでもないらしい。</p>
+<pre class="highlight"><code>.i do gasnu le nu :catlu lo cipni
+.i lo gleki ke cmalu cipni vi zutse je sanga</code></pre>
+
+
+<p>う～ん、これ以上は何の手がかりも得られん。先に行かうか。</p>
+<pre class="highlight"><code>.i do gasnu le nu :stici
+
+.i gapru le cmalu rajyke'a
+.i ledo jamfu cu lamji lo cmalu rajyke'a noi vasxu krasi loi cmafle be loi blabi
+jaurbumru .i lo pluta pefa'a lo stuna vi se fanmo .iku'i lo cmalu fenra cu ranji
+ve klama
+
+.i loi rufsu rokci se stapa cu ve klama le cnita be le rajyke'a</code></pre>
+
+
+<p>東へ戻れる道はここで行き止まりで、足下の穴の下方には粗い岩的な足の踏み場がある。ここで方向転換やな。となれば、一旦ルートマップをメモしておかうか。</p>
+<p>東から西にリストアップすると…</p>
+<ul>
+<li><code>cnita le ga'avro</code></li>
+<li><code>nenri la lolro'iboi cidydzu</code></li>
+<li><code>nenri lo kumfa pelei fesydai</code><ul>
+<li>gustci無しだとka manku（闇）</li>
+<li>魔法の呪文<code>xyzyzy</code>で小屋と行き来できる</li>
+<li>先が星形の黒い棒をここで拾つた</li>
+</ul>
+</li>
+<li><code>na'e frili zei du'a je vu'a zei salpo ve klama ma'arfe'a</code></li>
+<li><code>narju rirxe kumfa</code><ul>
+<li>ここで小鳥が歌ひよつてたけど、結局捕まへられなかつた</li>
+</ul>
+</li>
+<li><code>gapru le cmalu rajyke'a</code><ul>
+<li>この部屋に空いてる穴の下に向かつて足の踏み場がある</li>
+</ul>
+</li>
+</ul>
+<p>では下に降りよう。</p>
+<pre class="highlight"><code>.i do gasnu le nu :cnita
+
+.i nenri le jaurbumru balkumfa
+.i do diklo lo fanmo be lo barda balkumfa noi clara'i ji'e lo no'e se viska
+stici .i role mlana cu lutke'a .i so'o ganra ke rokci serti cu ve klama lo cnita
+.i le balkumfa cu culno loi cmafle be loi blabi jaurbumru noi se muvdu ta'i
+sa'enai tu'alo jmive .i lo lenku cu brife le serti .i pluta vi le gapru be lo
+boldi'u noi trixe do
+
+loi rufsu rokci se stapa cu ve klama le gapru be le boldi'u
+
+[.i le do nilji'a cu te jmina remu.]</code></pre>
+
+
+<p><code>remu</code>は<code>li remu</code>にせんとな…ta'osai</p>
+<p>この部屋の西端はよく見えないほど遠い。で、下方に向かふ岩の階段がある。つまり西(<code>stici</code>)か下(<code>cnita</code>)に進める。その他の詳細な描写はさしあたり読み飛ばす。</p>
+<p>先づは西へ。</p>
+<pre class="highlight"><code>.i do gasnu le nu :stici
+
+.i stuna korbi lo brafenra
+.i do diklo le stuna korbi be lo brafenra noi kuspe pirole balkumfa .i le
+jaurbumru vi carmi denmi .i le fenra cu dukse leni ganra kei lenu do ravypi'e</code></pre>
+
+
+<p>霧の出元はこの大きい亀裂か…？跳び越すには広過ぎるとあるが…</p>
+<pre class="highlight"><code>.i do gasnu le nu :vreji
+.i vi'o</code></pre>
+
+
+<p>遺書は書いた（セーブした）。さあ無限の彼方へ飛び立たう。</p>
+<pre class="highlight"><code>.i do gasnu le nu :ravypi'e
+.i le bridi po di'u na slabu mi
+
+.i do gasnu le nu :plipe
+.i do na'e snada ba'unai
+
+
+.i .uuru'e tu'a do ba'o rinka ja'o lenu do se catra .i.e'ecu'i mi ka'e sidju do
+.iku'i mi puku'anoroi troci lo simsa be lenu go'i .i xu do djica lenu mi troci
+lenu mivgau do
+
+.i do spuda fi lu :</code></pre>
+
+
+<p>やはりただの自殺に終つた。しかし復活の機会が与へられてゐる。</p>
+<pre class="highlight"><code>.i do spuda fi lu :go'i
+.i vi'odo'u.aunai ko na pante va'o lenu srera 
+
+
+
+.i zoi san. pyff san. 
+
+.i do se sruri lo narju danmo dilnu .i do kafke je nadvasxu gi'e barkla fi le
+danmo gi'e facki .i .i .i
+
+.i nenri lo dinju
+.i do nenri lo dinju noi djacu marbi lo barda jaukra
+
+[.i le do nilji'a cu te vimcu pano.]</code></pre>
+
+
+<p>復活の際にポイント減つてしまうた…（しかし初回プレイだしポイントを気にする余裕がない。）</p>
+<pre class="highlight"><code>.i do gasnu le nu :selbeiste
+.i do bevri noda
+
+.i do gasnu le nu :zgana
+
+.i nenri lo dinju
+.i do nenri lo dinju noi djacu marbi lo barda jaukra</code></pre>
+
+
+<p>アイテムも全部失つた状態でどうすればいいんですかね…。</p>
+<pre class="highlight"><code>.i do gasnu le nu :cliva
+.i ko nitcu le nu cusku le farna poi do djica
+
+.i do gasnu le nu :bartu
+
+.i zvati le fanmo be lo dargu
+
+.i le minra ke lastu gustci cu jibni</code></pre>
+
+
+<p>gustciだけは発見。これが無いと洞窟の中は闇だからな…。</p>
+<pre class="highlight"><code>.i do gasnu le nu :lebna lo gustci
+.i ca'a lebna
+
+.i do gasnu le nu :nerkla
+
+.i nenri lo dinju
+
+.i do gasnu le nu :xyzyzy
+
+.i ka manku
+.i prane le ka manku .iseri'a do na kakne le nu viska
+
+.i do gasnu le nu :gusni
+.i do kragau le lastu gustci</code></pre>
+
+
+<p>それでは先程のbrafenraまで同じ道を辿りませうか。</p>
+<pre class="highlight"><code>.i stuna korbi lo brafenra
+
+.i do kakne le nu viska
+lo girzu be loi ckiku
+lo kukte cidja
+lo cmalu botpi to poi kunti toi
+lo cmalu vasru pema'e loi jimca to poi kunti toi
+lo xekri grana noi mitre li pa leni clani zi'enoi lo se kijyspo tartai cu fanmo
+vi le vi diklo</code></pre>
+
+
+<p>遺品が全部残つてますね。もれなく遺品回収しませう。</p>
+<pre class="highlight"><code>.i do gasnu le nu :lebna roda
+.i girzu be loi ckiku zo'u ca'a lebna
+.i kukte cidja zo'u ca'a lebna
+.i cmalu botpi zo'u ca'a lebna
+.i cmalu vasru pema'e loi jimca zo'u ca'a lebna
+.i xekri grana noi mitre li pa leni clani zi'enoi lo se kijyspo tartai cu fanmo
+zo'u ca'a lebna
+.i brafenra zo'u  .i ri to'e se bevri
+.i jaurbumru zo'u  .i ri to'e se bevri</code></pre>
+
+
+<p>しかしまあ、さつきのもさうだけど、自動でアイテムのリスティングをする部分の文章はしばしば非文法的やな…やはり後でソース弄らんとな。</p>
+<p>ともかく便利な機能に感謝せんとな。</p>
+<pre class="highlight"><code>.i do gasnu le nu :stici
+.i le fenra cu dukse leni ganra</code></pre>
+
+
+<p>うん。ここでまた死んだら駄目だよね。</p>
+<pre class="highlight"><code>.i do gasnu le nu :stuna
+
+.i nenri le jaurbumru balkumfa</code></pre>
+
+
+<p>亀裂を越えるのは後にして、次は下に行かうか。</p>
+<pre class="highlight"><code>.i do gasnu le nu :cnita
+
+.i balkumfa le ma'atru
+.i do nenri le balkumfa po le ma'atru .i pluta fa'a roda
+
+.i lo barda ke crino ke fengu since cu to'e kligau le ve klama</code></pre>
+
+
+<p>え…何やこの大蛇。これが山の主か。</p>
+<p>全方向に道はあるらしいから、さしあたり通れる道を探すか。</p>
+<pre class="highlight"><code>.i do gasnu le nu :stici
+.i do na'eka'e backla le since
+
+.i do gasnu le nu :berti
+.i do na'eka'e backla le since</code></pre>
+
+
+<p>西と北は山の主に通せんぼされてまうた。</p>
+<pre class="highlight"><code>.i do gasnu le nu :stuna
+
+.i nenri le jaurbumru balkumfa
+
+.i do gasnu le nu :stici
+
+.i stuna korbi lo brafenra
+
+.i do gasnu le nu :zgana
+
+.i stuna korbi lo brafenra
+.i do diklo le stuna korbi be lo brafenra noi kuspe pirole balkumfa .i le
+jaurbumru vi carmi denmi .i le fenra cu dukse leni ganra kei lenu do ravypi'e
+
+.i do gasnu le nu :stici
+.i le fenra cu dukse leni ganra</code></pre>
+
+
+<p>東に出ようとしたらいつのまにかさつきの大部屋に逆戻り。洞窟もしばしば空間が捻れとるんかな…。森の恐怖、再来。</p>
+<pre class="highlight"><code>.i do gasnu le nu :stuna
+
+.i nenri le jaurbumru balkumfa
+
+.i do gasnu le nu :cnita
+
+.i balkumfa le ma'atru
+
+.i lo barda ke crino ke fengu since cu to'e kligau le ve klama</code></pre>
+
+
+<p>この山の主の部屋から東に抜けたら、戻る時は下に進まんとあかんのやな。</p>
+<pre class="highlight"><code>.i do gasnu le nu :snanu
+.i do na'eka'e backla le since</code></pre>
+
+
+<p>う～ん、この大蛇を退かさないとあかんのか…</p>
+<pre class="highlight"><code>.i do gasnu le nu :damba lo since
+.i lenu gunta le since bana'e snada je ckape</code></pre>
+
+
+<p><code>se snada</code>かなta'o。危険を承知で大蛇に抗ひます。</p>
+<pre class="highlight"><code>.i do gasnu le nu :darxi lo since sepi'o lo grana
+.i na'e jimpe lei valsi poi se lidne lo'u darxi le since le'u
+
+.i do gasnu le nu :sligau lo grana
+.i noda fasnu
+
+.i do gasnu le nu :sligau lo xance
+.i do na viska ri
+
+.i do gasnu le nu :sligau
+.i do sligau le do xance to .oiro'a toi</code></pre>
+
+
+<p>棒や手では追ひ払へない。単にネガティヴな挨拶をしたのみか。</p>
+<pre class="highlight"><code>.i do gasnu le nu :ctigau lo cidja
+to le since toi
+.i ri djica lenu citka noda pevi zi'epo'u na'ebo do</code></pre>
+
+
+<p>ここにあるものではワイ以外の何物もお召しにならぬと仰せか。</p>
+<pre class="highlight"><code>.i do gasnu le nu :ctigau mi
+to le since toi
+to pamai do cpacu do toi
+.i do ze'e ponse do</code></pre>
+
+
+<p>ワイは永遠にワイの所有やな…</p>
+<p>ところで<code>ctigau</code>のPSとしては「x1(gasnuのx1)がx2(citkaのx1)にx3(citkaのx2)を食べさせる」だから、本当は{ctigau lo since mi}とか{selctigau mi lo since}が正しいはずだけど、まあこのシステムは仕様上ロジバン文法に優しくないみたいみたいだから、この世界では{<code>ctigau</code>}={selctigau}であると理解しておくか。{<a href="http://jbovlaste.lojban.org/dict/tamgau">tamgau</a>}の例と同じく。</p>
+<pre class="highlight"><code>.i do gasnu le nu :dunda mi
+to le since toi
+to pamai do cpacu do toi
+.i do ze'e ponse do</code></pre>
+
+
+<p><code>dunda</code>してももちろん大差無いな。</p>
+<p>う～ん、流石に手詰まりやな。<a href="http://rickadams.org/adventure/d_hints/">ヒント集</a>に頼るか。</p>
+<p><a href="http://rickadams.org/adventure/d_hints/hint006.html">Q: How do you get past the snake?</a>:</p>
+<blockquote>
+<p>Throw the bird at it. Of course, you have to catch the bird first. </p>
+</blockquote>
+<p>ええ…あの小鳥ちやんを生きたまま蛇に食はすんか…残酷やけど道理に適つてをる。</p>
+<p>で、鳥はどう捕まへればいいのかな。</p>
+<p><a href="http://rickadams.org/adventure/d_hints/hint004.html">Q: How do you catch the bird?</a>:</p>
+<blockquote>
+<p>Well, the help file mentions that the bird is afraid of the rod, so keep that in mind. If you have the rod in your possession, you won't be able to get near the bird. Also, you'll need a cage to keep the bird in. So if you've got the cage, and not the rod, you're all set.</p>
+</blockquote>
+<p>ええ…ワイではなくてワイの持つてた棒に怯えてたんか…どんな棒やねん…ああ、例の魔法の呪文の部屋に落ちてたやつやから、魔法の杖か何かか。魔法で何か酷い目に遭はされたんかな…もしや元は鳥ではなくて…まあこれは後で考へよう。</p>
+<p>さしあたり戻つて鳥肉を取りに行く。</p>
+<pre class="highlight"><code>.i do gasnu le nu :xyzyzy
+.i noda fasnu</code></pre>
+
+
+<p>あの魔法の呪文の部屋以外では効かんのか…しやあないので自力であの鳥の部屋に戻りまして</p>
+<pre class="highlight"><code>.i narju rirxe kumfa
+
+.i lo gleki ke cmalu cipni vi zutse je sanga
+
+.i do gasnu le nu :falcru lo grana
+.i ca'a falcru
+
+.i do gasnu le nu :kavbu lo cipni
+.i do kavbu le cipni sepi'o le vasru</code></pre>
+
+
+<p>やつたぜ。しかしこの関門はアイテムを一つづつ落として鳥に近付かんと解決できないやろ…一度に全部落とせば良かつたのか。</p>
+<pre class="highlight"><code>.i do gasnu le nu :catlu lo cipni
+.i za'a le cmalu cipni cu badri le ka se vasru</code></pre>
+
+
+<p>まあこれから蛇の餌食になるし尚更やな…</p>
+<pre class="highlight"><code>.i do gasnu le nu :pencu lo cipni
+.i le cmalu vasru pema'e loi jimca ganlo</code></pre>
+
+
+<p>これは<code>cu ganlo</code>とでもすべきかしらん。</p>
+<p>で、また自力で山の主の部屋へ。</p>
+<pre class="highlight"><code>.i balkumfa le ma'atru
+
+.i lo barda ke crino ke fengu since cu to'e kligau le ve klama</code></pre>
+
+
+<p>いよいよ小鳥ちやんを山の主たる怒れる大蛇の生贄にします…co'o sai lo cipni .iu</p>
+<pre class="highlight"><code>.i do gasnu le nu :renro lo cipni
+to le cipni zifri'a le vasru
+
+.i le cmalu cipni cu gunta le crino since .i ra va'o lonu macri'a damba cu
+livbai le since </code></pre>
+
+
+<p>え…何これ（呆然）。鳥、強過ぎやろ。食べられるどころか撃退しとるやん。</p>
+<pre class="highlight"><code>.i do gasnu le nu :zgana
+
+.i balkumfa le ma'atru
+.i do nenri le balkumfa po le ma'atru .i pluta fa'a roda
+
+.i lo gleki ke cmalu cipni vi zutse je sanga</code></pre>
+
+
+<p>そして小鳥ちやんは平然と以前の如く歌ひよる。</p>
+<pre class="highlight"><code>.i do gasnu le nu :kavbu lo cipni
+.i do kavbu le cipni sepi'o le vasru</code></pre>
+
+
+<p>入れ物の中は悲しいだらうに、また捕まつてくれた。</p>
+<p>あの大蛇を撃退して道が開けたし、今回はここまでにしよか。むほ。</p>
+<hr>
+<ol>
+<li><a id="ntl"></a>ゲームの入手先等は<a href="https://mw.lojban.org/papri/Colossal_Cave">MediaWiki版の記事</a>や<a href="http://tiki.lojban.org/tiki/Colossal+Cave">tiki版の記事</a>を参照。後者には制作時の作業データも。<a href="#inref_ntl">↑</a></li>
+<li><a id="cca"></a>Wikipedia記事の<a href="https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%AD%E3%83%83%E3%82%B5%E3%83%AB%E3%83%BB%E3%82%B1%E3%83%BC%E3%83%96%E3%83%BB%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC">日本語版</a>や<a href="https://en.wikipedia.org/wiki/Colossal_Cave_Adventure">英語版</a>、<a href="http://rickadams.org/adventure/">ファンサイト</a>をさしあたり参照先として挙げておく。<a href="#inref_cca">↑</a></li>
+</ol>
