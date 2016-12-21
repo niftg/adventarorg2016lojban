@@ -20,10 +20,10 @@ def md2html_file(mdfn,stylesheet):
         )
     infile.close()
     # href="*.md" -> href="*.html"
-    htmlfrag = re.sub(r"(?<=href\=\")https://github\.com/(?P<usr>.+)/(?P<repo>.+)/blob/master/(?P<mdn>.+)\.md(?=\")",
+    htmlfrag = re.sub(r"(?<=href\=\")https://github\.com/(?P<usr>.+)/(?P<repo>.+)/blob/master/(?P<mdn>.+?)\.md(?=\")",
                       r"https://\g<usr>.github.io/\g<repo>/\g<mdn>.html",
                       htmlfrag)
-    htmlfrag = re.sub(r"(?<=href\=\")(?P<mdn>[^:]*)\.md(?=\")",
+    htmlfrag = re.sub(r"(?<=href\=\")(?P<mdn>[^:]*?)\.md(?=\")",
                       r"\g<mdn>.html",
                       htmlfrag)
     template ="""<!doctype html>
